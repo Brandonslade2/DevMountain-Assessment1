@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+var gitDefinition = `git is a program that is used to track changes of a programming file. It can be used to obtain source code from users connected to each other to share`
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+var gitHubDefinition = 'GitHub is a website that serves as a ‘cloud’ method of Git. Users can share source code files through this website through various means such as repositories. Users can communicate and view other profiles using this platform'
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -25,7 +25,7 @@
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+var gitInitDefinition = `git Init is a command used to create a new git repository in the current directory`
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+var gitCloneDefinition = `git clone is a command used to create a copy of a repository into another directory to the specified location in the arguments.`
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,7 @@
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+var gitStatusDefinition = `git status shows the state of a working repository in the current directory. It will also display changes and files being tracked.`
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,7 +52,8 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+var gitAddDefinition = `git add will add files to the working repository in the directory as specified in the arguments`
+var gitAddCode = `git add .`
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -63,8 +64,8 @@
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
-
+var gitCommitDefinition = 'git committ creates a snapshot of the files that have been added to the repository of any changes.'
+var gitCommitCode = `git commit -am "initial commit"`
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -72,4 +73,4 @@
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+var gitPushDefinition = `git push is a command that copies the files tracked into the origin location. As a result, these files are stored in the repository for review.`
